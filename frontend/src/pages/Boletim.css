@@ -1,0 +1,26 @@
+.boletim-container {
+  padding: 20px;
+}
+.boletim-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.boletim-table th,
+.boletim-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+.boletim-table th {
+  background-color: #1a73e8;
+  color: white;
+}
+.aprovado {
+  color: green;
+  font-weight: bold;
+}
+.reprovado {
+  color: red;
+  font-weight: bold;
+}
