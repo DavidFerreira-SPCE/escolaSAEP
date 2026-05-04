@@ -1,0 +1,28 @@
+.professor-container {
+  padding: 40px;
+  max-width: 500px;
+  margin: auto;
+}
+.lancamento-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.lancamento-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.lancamento-form button {
+  padding: 12px;
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.status-msg {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
