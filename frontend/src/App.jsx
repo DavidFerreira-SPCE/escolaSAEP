@@ -8,21 +8,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Tela de Login sem Navbar */}
         <Route path="/" element={<Login />} />
 
-        {/* Rotas Logadas com Navbar */}
         <Route
           path="/dashboard"
-          element={
-            <>
-              <Navbar />
-              <Dashboard />
-            </>
-          }
-        />
-        <Route
-          path="/boletim"
           element={
             <>
               <Navbar />
